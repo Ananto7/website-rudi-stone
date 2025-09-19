@@ -6,6 +6,41 @@
     <title>
       RudiStone | Batu Alam Tempel Berkualitas | Spesialis Stone Natural
     </title>
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="RudiStone adalah spesialis batu alam tempel berkualitas tinggi. Menyediakan limestone, batu candi, RTA putih tulang dan berbagai jenis batu alam untuk konstruksi dan dekorasi. Melayani kontraktor, pemborong dan perorangan dengan harga kompetitif."
+    />
+    <meta
+      name="keywords"
+      content="batu alam, batu tempel, limestone, batu candi, RTA putih tulang, random acak, batu alam Yogyakarta, konstruksi, dekorasi, kontraktor"
+    />
+    <meta name="author" content="RudiStone" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="RudiStone | Batu Alam Tempel Berkualitas"
+    />
+    <meta
+      property="og:description"
+      content="Spesialis batu alam tempel berkualitas tinggi untuk kebutuhan konstruksi dan dekorasi. Limestone, batu candi, RTA putih tulang dengan harga kompetitif."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rudistone.com" />
+    <meta
+      property="og:image"
+      content="https://rudistone.com/images/gridfoto.jpg"
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://rudistone.com" />
+
+    <!-- Preload critical images -->
+    <link rel="preload" as="image" href="images/gridfoto.jpg" />
+    <link rel="preload" as="image" href="images/limestone1.jpg" />
+    <link rel="preload" as="image" href="images/random-acak-putih-tulang.jpg" />
+    <link rel="preload" as="image" href="images/rta-putih-tulang.jpg" />
     <style>
       * {
         margin: 0;
@@ -595,6 +630,28 @@
         background: #7f8c8d;
       }
     </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "RudiStone",
+        "description": "Spesialis batu alam tempel berkualitas tinggi",
+        "url": "https://rudistone.com",
+        "telephone": "+62-878-3875-1787",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Yogyakarta",
+          "addressCountry": "ID"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -7.9988598,
+          "longitude": 110.6894691
+        },
+        "openingHours": "Mo-Sa 08:00-17:00, Su 09:00-15:00",
+        "priceRange": "$$"
+      }
+    </script>
   </head>
   <body>
     <!-- Header -->
@@ -619,7 +676,12 @@
           Spesialis batu potong alam untuk kebutuhan konstruksi dan dekorasi
           Anda. Kualitas terjamin, harga kompetitif.
         </p>
-        <a href="#products" class="cta-button">Lihat Produk Kami</a>
+        <a
+          href="#products"
+          class="cta-button"
+          aria-label="Lihat koleksi produk batu alam berkualitas kami"
+          >Lihat Produk Kami</a
+        >
       </div>
     </section>
 
@@ -632,7 +694,11 @@
           onclick="openProductModal('limestone')"
         >
           <div class="product-image">
-            <img src="images/limestone1.jpg" alt="Foto Batu Limestone" />
+            <img
+              src="images/limestone1.jpg"
+              alt="Batu Limestone natural berkualitas tinggi untuk dinding interior dan eksterior"
+              loading="lazy"
+            />
           </div>
           <div class="product-info">
             <h3>Batu Limestone</h3>
@@ -651,7 +717,8 @@
           <div class="product-image">
             <img
               src="images/random-acak-putih-tulang.jpg"
-              alt="Foto Batu Random Acak Putih Tulang"
+              alt="Batu Random Acak Putih Tulang dengan pola artistik unik untuk feature wall dan backdrop TV"
+              loading="lazy"
             />
           </div>
           <div class="product-info">
@@ -671,7 +738,8 @@
           <div class="product-image">
             <img
               src="images/rta-putih-tulang.jpg"
-              alt="Foto Batu RTA Putih Tulang"
+              alt="Batu RTA Putih Tulang ready to apply dengan kualitas premium untuk hotel dan kantor modern"
+              loading="lazy"
             />
           </div>
           <div class="product-info">
@@ -696,10 +764,14 @@
           onclick="openProductModal('batu-candi')"
         >
           <div class="catalog-image">
-            <img src="images/batu-candi-1.jpg" alt="Foto Batu Candi" />
+            <img
+              src="images/batu-candi-1.jpg"
+              alt="Batu Candi dengan tekstur klasik untuk dinding eksterior dan landscape tradisional"
+              loading="lazy"
+            />
           </div>
           <div class="catalog-content">
-            <h4>Batu Candi</h4>
+            <h3>Batu Candi</h3>
             <p>Tekstur klasik dengan ketahanan tinggi, cocok untuk eksterior</p>
             <div class="catalog-price">Hubungi untuk harga</div>
           </div>
@@ -711,11 +783,12 @@
           <div class="catalog-image">
             <img
               src="images/batu-putih-tulang.jpg"
-              alt="Foto Batu Putih Tulang"
+              alt="Batu Putih Tulang dengan warna netral elegan untuk interior minimalis dan kamar mandi modern"
+              loading="lazy"
             />
           </div>
           <div class="catalog-content">
-            <h4>Batu Putih Tulang</h4>
+            <h3>Batu Putih Tulang</h3>
             <p>Warna putih natural yang elegan untuk interior modern</p>
             <div class="catalog-price">Hubungi untuk harga</div>
           </div>
@@ -727,11 +800,12 @@
           <div class="catalog-image">
             <img
               src="images/batu-putih-super.jpg"
-              alt="Foto Batu Putih Super"
+              alt="Batu Putih Super grade A dengan finishing premium untuk hotel dan showroom mewah"
+              loading="lazy"
             />
           </div>
           <div class="catalog-content">
-            <h4>Batu Putih Super</h4>
+            <h3>Batu Putih Super</h3>
             <p>Kualitas super dengan finishing halus dan permukaan rata</p>
             <div class="catalog-price">Hubungi untuk harga</div>
           </div>
@@ -741,10 +815,14 @@
           onclick="openProductModal('rta-candi')"
         >
           <div class="catalog-image">
-            <img src="images/batu-rta-candi.jpg" alt="Foto Batu RTA Candi" />
+            <img
+              src="images/batu-rta-candi.jpg"
+              alt="Batu RTA Candi ready to apply dengan motif tradisional untuk resort dan restoran etnik"
+              loading="lazy"
+            />
           </div>
           <div class="catalog-content">
-            <h4>Batu RTA Candi</h4>
+            <h3>Batu RTA Candi</h3>
             <p>Ready to apply dengan motif candi yang artistik</p>
             <div class="catalog-price">Hubungi untuk harga</div>
           </div>
@@ -756,11 +834,12 @@
           <div class="catalog-image">
             <img
               src="images/random-acak-candi.jpg"
-              alt="Foto Batu Random Acak Candi"
+              alt="Random Acak Candi dengan pola unik dan karakter Indonesia untuk villa dan cafe bergaya etnik"
+              loading="lazy"
             />
           </div>
           <div class="catalog-content">
-            <h4>Random Acak Candi</h4>
+            <h3>Random Acak Candi</h3>
             <p>Pola acak dengan karakter candi untuk tampilan unik</p>
             <div class="catalog-price">Hubungi untuk harga</div>
           </div>
@@ -772,11 +851,12 @@
           <div class="catalog-image">
             <img
               src="images/random-acak-putih-super.jpg"
-              alt="Foto Batu Random Acak Putih Super"
+              alt="Random Acak Putih Super dengan kualitas premium untuk lobby hotel dan residence mewah"
+              loading="lazy"
             />
           </div>
           <div class="catalog-content">
-            <h4>Random Acak Putih Super</h4>
+            <h3>Random Acak Putih Super</h3>
             <p>Kombinasi acak dengan kualitas super untuk hasil premium</p>
             <div class="catalog-price">Hubungi untuk harga</div>
           </div>
